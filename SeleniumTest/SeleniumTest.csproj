@@ -40,11 +40,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Test.cs" />
     <Compile Include="steps\SpecTestSteps.cs" />
     <Compile Include="features\SpecTestFeature.feature.cs">
       <DependentUpon>SpecTestFeature.feature</DependentUpon>
     </Compile>
+    <Compile Include="pages\DuckDuckGoHomePage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

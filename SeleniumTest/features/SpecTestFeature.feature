@@ -11,7 +11,7 @@ Scenario Outline: Enter
     Then the url matches the <searchURL>
 
 Examples:
-	| testCase 			                      | phrase                          | searchURL                                                                                      |
+	| testCase 			                      | phrase                           | searchURL                                                                                      |
 	| Search Linux on YouTube                 | linux !yt                       | https://www.youtube.com/results?search_query=linux                                             |
 	| Search Linux on Wikipedia               | linux !w                        | https://en.wikipedia.org/wiki/Linux                                                            |
 	| Search Linux on Amazon                  | linux !a                        | https://www.amazon.com/s/?url=search-alias%3Daps&field-keywords=linux&tag=duckduckgo-ffab-b-20 |
